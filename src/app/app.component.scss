@@ -1,0 +1,31 @@
+/* styles.scss */
+
+/* Add some global styling */
+ion-content {
+    --ion-background-color: #f4f4f4;
+}
+
+/* Style the custom menu */
+.custom-menu {
+    --ion-background-color: #333;
+    color: #fff;
+
+    .custom-header {
+        --ion-background-color: #292929;
+    }
+
+    #inbox-list,
+    #labels-list {
+        background-color: #333;
+        color: #fff;
+    }
+
+    .menu-item,
+    .label-item {
+        color: #fff;
+
+        ion-label {
+            color: #fff;
+        }
+    }
+}
